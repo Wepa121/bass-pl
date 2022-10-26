@@ -5,8 +5,12 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <Router>
-      <Header/>
-      <Footer/>
+      <div className="main">
+        <Header/>
+        
+        <Footer/>
+      </div>
+      
     </Router>
   );
 }
