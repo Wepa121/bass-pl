@@ -110,7 +110,6 @@ footer{
 
 /* HOMEPAGE */
 .electronic-item{
-  padding: 1em 2em;
   font-size: 10px;
   border-bottom: 1px dotted black;
   /* font-weight: 800; */
@@ -123,7 +122,8 @@ footer{
 .electronic-list{
   display: flex;
   justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  row-gap: 2rem;
+  gap: 2rem;
 }
 
