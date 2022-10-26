@@ -1,4 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;700;800&display=swap');
 body{
   margin:0;
   padding:0;
+  font-family: 'Stick No Bills', sans-serif;
+  background-color: #718093;
+}
+.asci{
+  white-space: pre;
+  font-family: "Courier New", Courier, monospace; 
+  /* width: fit-content; */
+  /* overflow-wrap: break-word; */
+}
+.container{
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+  background-color: #353b48;
+  color: white;
+}
+.title, .title-content{
+  text-align: center;
+}
+.title{
+  font-size: min(7px, .5vw);
+  font-size: 1vw;
+}
+.title-content{
+  font-size: min(3px, .2vw);
+  font-size: .43vw;
+}
+.flex{
+  display:flex;
+  flex-direction: column;
+}
+
+/* Navigation */
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 1rem; 
+}
+li{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+  color:white;
+}
+li:hover{
+  cursor: pointer;
+  font-weight: 800;
+}
+
+@media (min-width: 500px){
+  .flex{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title, .title-content{
+    text-align: left;
+  }
+  .title{
+    font-size: min(7px, .5vw);
+  }
+  .title-content{
+    font-size: min(3px, .2vw);
+  }
+
 }
