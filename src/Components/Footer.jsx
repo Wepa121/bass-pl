@@ -7,13 +7,13 @@ function Footer() {
     <footer>
       <div className="container">
         <div><FaRobot size = "3rem"/>
-        <p>Copyright &#169; 2022. All rights reserved</p>
+          <p>Copyright &#169; 2022. All rights reserved</p>
         </div>
         <div className="contact">
-        <p>Contact Us</p>
-        <div className="contacts"><AiFillHome size="1.25rem"/><p>Turkmenistan. Ashgabat</p></div>
-        <div className="contacts"><TbPhoneCall size="1.25rem"/><p>+99364488958</p></div>
-        <div className="contacts"><BiEnvelope size="1.25rem"/><p>example@gmail.com</p></div>
+          <p>Contact Us</p>
+          <div className="contacts"><AiFillHome size="1.25rem"/><p>Turkmenistan. Ashgabat</p></div>
+          <div className="contacts"><TbPhoneCall size="1.25rem"/><p>+99364488958</p></div>
+          <div className="contacts"><BiEnvelope size="1.25rem"/><p>example@gmail.com</p></div>
         </div>
       </div>
       
