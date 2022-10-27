@@ -26,7 +26,7 @@ export const seller = `
 
 export const arr = [
   {name: "Resistors",
-   explanation: `The very first component that you should know about is the resistor. It is pretty easy to assume that a resistor, as the name suggests, will resist electricity that flows through it, and you would be correct in that assumption too! Any situation that demands the flow of current to be controlled at the desired level will require a resistor.`},
+   explanation: "The very first component that you should know about is the resistor. It is pretty easy to assume that a resistor, as the name suggests, will resist electricity that flows through it, and you would be correct in that assumption too! Any situation that demands the flow of current to be controlled at the desired level will require a resistor."},
   {
     name:"Capacitors",
     explanation:`If a resistor is like a cushion that is used to control the flow of electricity, then capacitors are like small rechargeable batteries that store small amounts of charge in them. `,

@@ -138,4 +138,6 @@ footer{
   color: #dcdde1;
   letter-spacing: 1.6px;
   z-index: 1;
+  width: 200px;
+  white-space: normal;    /* shu yeri gaty wajyp, cunki yokardakyda white-space: pre dur*/
 }
