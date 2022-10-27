@@ -1,7 +1,7 @@
 
 function ElectronicDetails() {
   return (
-    <div>ElectronicDetails</div>
+    <div className="electronic-detail">ElectronicDetails</div>
   )
 }
 

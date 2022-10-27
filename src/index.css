@@ -110,6 +110,7 @@ footer{
 
 /* HOMEPAGE */
 .electronic-item{
+  position: relative;
   font-size: 10px;
   border-bottom: 1px dotted black;
   /* font-weight: 800; */
@@ -126,4 +127,12 @@ footer{
   flex-wrap: wrap;
   gap: 2rem;
 }
-
+.electronic-detail{
+  position:absolute;
+  left: 50%;
+  top: 70%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1rem 2rem; 
+  z-index: 1;
+}
