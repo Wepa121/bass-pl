@@ -10,7 +10,7 @@ function ElectronicItem({data}) {
   let asciiData = ""
   figlet.parseFont('Standard', standard);
 
-  figlet.text(data, {
+  figlet.text(data.name, {
       font: 'Standard',
   }, function(err, data) {
       c(data);
@@ -23,7 +23,7 @@ function ElectronicItem({data}) {
   return (
     <div onMouseOver={()=>{setShow(true)}} onMouseOut = {()=>{setShow(false)}} className="asci electronic-item">
       {asciiData}
-      {show && <ElectronicDetails/>}
+      {show && <ElectronicDetails explanation = {data.explanation}/>}
     </div>
     )
 }

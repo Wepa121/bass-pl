@@ -1,7 +1,7 @@
 
-function ElectronicDetails() {
+function ElectronicDetails({explanation}) {
   return (
-    <div className="electronic-detail">ElectronicDetails</div>
+    <div className="electronic-detail">{explanation}</div>
   )
 }
 
