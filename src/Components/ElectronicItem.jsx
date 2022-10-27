@@ -1,8 +1,12 @@
-// import asciiData from "../Data/function"
+import {useState} from "react"
 import figlet from 'figlet';
 import standard from 'figlet/importable-fonts/Standard.js'
+import ElectronicDetails from "./ElectronicDetails";
 
 function ElectronicItem({data}) {
+  const [show, setShow] = useState(false)
+
+  // need to generate ascii
   let asciiData = ""
   figlet.parseFont('Standard', standard);
 
@@ -17,7 +21,10 @@ function ElectronicItem({data}) {
   }
 
   return (
-    <div className="asci electronic-item">{asciiData}</div>
+    <div onMouseOver={()=>{setShow(true)}} onMouseOut = {()=>{setShow(false)}} className="asci electronic-item">
+      {asciiData}
+      {show && <ElectronicDetails/>}
+    </div>
     )
 }
 
