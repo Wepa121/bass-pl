@@ -28,6 +28,7 @@ body{
 header, footer{
   background-color: #2f3640;
   color: white;
+  padding: 2rem 0;
 }
 .title, .title-content{
   text-align: center;
@@ -49,7 +50,7 @@ header, footer{
 ul{
   display: flex;
   justify-content: center;
-  gap: 1rem; 
+  gap: 1rem;
 }
 li{
   list-style: none;
@@ -75,10 +76,13 @@ li:hover{
     text-align: left;
   }
   .title{
-    font-size: min(7px, .5vw);
+    font-size: min(7.5px, .5vw);
   }
   .title-content{
     font-size: min(3px, .2vw);
+  }
+  ul{
+    font-size: min(1rem, 2.6vw);           /*shu manylymy 600px gora sazlandy*/
   }
 
 }
@@ -104,6 +108,7 @@ footer{
   .contact{
     flex-direction: row;
     gap: 2rem;
+    font-size: min(.75rem, 1.95vw);          /*shu manylymy*/
   } 
 }
 
@@ -111,9 +116,8 @@ footer{
 /* HOMEPAGE */
 .electronic-item{
   position: relative;
-  font-size: 10px;
+  font-size: min(7px, 2vw);
   border-bottom: 1px dotted black;
-  /* font-weight: 800; */
 }
 .electronic-item:hover{
   cursor: pointer;
@@ -121,10 +125,9 @@ footer{
   border-bottom: 1px solid black;
 }
 .electronic-list{
+  margin: 3rem 0;
   display: flex;
-  justify-content: space-between;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 2rem;
 }
 .electronic-detail{
@@ -140,4 +143,15 @@ footer{
   z-index: 1;
   width: 200px;
   white-space: normal;    /* shu yeri gaty wajyp, cunki yokardakyda white-space: pre dur*/
+}
+
+@media(min-width: 500px){
+  .electronic-list{
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .electronic-item{
+    font-size: min(9px, 1.25vw);
+  }
 }
