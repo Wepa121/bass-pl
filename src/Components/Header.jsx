@@ -1,18 +1,19 @@
-import {title, seller} from "../Data/data"
 import {Link} from "react-router-dom"
+import Title from "./Title"
+import NavLink from "./NavLink"
 function Header() {
   return (
     <header>
       <div className="container flex">
         <div className="asci">
-          <p className="title">{title}</p>
-          <p className="title-content">{seller}</p>
+          <Title data = "Electronics"/>
+          <Title data = "Best seller"/>
         </div>
         <nav>
           <ul>
-            <li><Link to = "/" className="link">Home</Link></li>
-            <li><Link to = "/about" className="link">About</Link></li>
-            <li><Link to = "/contact" className="link">Contact</Link></li>
+            <li><Link to = "/" className="link"><NavLink data = "Home"/></Link></li>
+            <li><Link to = "/about" className="link"><NavLink data = "About"/></Link></li>
+            <li><Link to = "/contact" className="link"><NavLink data = "Contact"/></Link></li>
           </ul>
         </nav>
       </div>
