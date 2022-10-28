@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react"
 import { useNavigate } from "react-router-dom";
 import figlet from 'figlet';
-import standard from 'figlet/importable-fonts/Standard.js'
+import doom from 'figlet/importable-fonts/Doom'
 
 
 function ElectronicItem({data}) {
@@ -9,9 +9,9 @@ function ElectronicItem({data}) {
   const [asciiData, setAsciiData] = useState("")
 
   useEffect(()=>{
-    figlet.parseFont('Standard', standard);
+    figlet.parseFont('Doom', doom);
     figlet.text(data.name, {
-        font: 'Standard',
+        font: 'Doom',
     }, function(err, data) {
         setAsciiData(data);
     });
