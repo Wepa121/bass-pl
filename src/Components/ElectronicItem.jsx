@@ -18,7 +18,7 @@ function ElectronicItem({data}) {
   }, [data.name])
 
   return (
-    <div className="asci electronic-item" onClick={()=>navigate('/detail')}>
+    <div className="asci electronic-item" onClick={()=>navigate(`/components/${data.name.toLowerCase()}`)}>
       {asciiData}
     </div>
     )
