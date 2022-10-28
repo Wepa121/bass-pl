@@ -25,10 +25,10 @@ export const seller = `
 `
 
 export const arr = [
-  {name: "Resistors",
+  {name: "Resistor",
    explanation: "The very first component that you should know about is the resistor. It is pretty easy to assume that a resistor, as the name suggests, will resist electricity that flows through it, and you would be correct in that assumption too! Any situation that demands the flow of current to be controlled at the desired level will require a resistor."},
   {
-    name:"Capacitors",
+    name:"Capacitor",
     explanation:`If a resistor is like a cushion that is used to control the flow of electricity, then capacitors are like small rechargeable batteries that store small amounts of charge in them. `,
   },
   {
@@ -36,19 +36,19 @@ export const arr = [
     explanation:`LEDs were briefly mentioned while describing “Resistors.” LEDs are just like bulbs, except that they are extremely reliable. You can find them on practically every appliance in your home that features some kind of indicator light. A typical LED bulb can last decades with no sign of dying.`,
   },
   {
-    name:"Transistors",
+    name:"Transistor",
     explanation:`The resistors, capacitors, and LEDs are the simple stuff in electrical circuits. Now, let us talk about the first complicated component-the transistor. For instance, transistors are used to build complex electrical systems, such as amplifiers. A simple way to understand transistors is to think of a switch. A basic switch has an “on” and an “off” state. These are controlled by the position of the switch, which is changed manually.`,
   },
   {
-    name:"Inductors",
+    name:"Inductor",
     explanation:`Inductors are just as complicated as transistors. Like transistors, inductors are used to build complex electrical systems. Unlike transistors, though, inductors are essentially coils of wire that are wound around other components. They are used as filters.`,
   },
   {
-    name:"ICs",
+    name:"IC",
     explanation:`An IC is like a ready-made chip that you can use to complete the project you want to build without having to use lots of single transistors or capacitors. As you upgrade from using basic components to integrated circuits, you will find that it is almost always easier to use ICs for your entire project than using individual components.`,
   },
   {
-    name:"Circuit Breaker",
+    name:"Circuit-Breaker",
     explanation:`A circuit breaker is a vital mechanical switching device that protects your electrical equipment from short circuit and power surges. It automatically detects a faulty condition and interrupts the harmful current flow from reaching the sockets. Every circuit breaker has 2 coils; a closing coil that closes the circuit and a tripping coil to trip the circuit.`,
   },
   {
@@ -64,7 +64,7 @@ export const arr = [
     explanation:`It is an electric device that changes the levels of AC current. It consists of 2 coils of wire connected by an iron core. The transformer uses mutual induction of two windings to convert the electric energy from one circuit to another. It also converts the power between circuits with different voltage levels without altering the frequency.`,
   },
   {
-    name:"Electrical Wires",
+    name:"Electrical-Wire",
     explanation:`It's almost impossible to make an electrical structure without electrical wires and cables. Electrical wires do the work of connecting a device to the power source through cables. You need wires to install every device, be it switches, sockets, LEDs, or anything else.`,
   },
   {
