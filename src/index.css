@@ -155,3 +155,15 @@ footer{
     font-size: min(9px, 1.25vw);
   }
 }
+
+/* Electronic item explanation */
+
+.item-ascii-art{
+  float:left;
+  font-size: 2px;
+  font-weight: 800;
+  width: 260px;
+}
+span{
+  font-size: 1.5rem;
+}

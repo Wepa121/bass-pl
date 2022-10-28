@@ -1,12 +1,13 @@
 import {useEffect, useState} from "react"
+import { useNavigate } from "react-router-dom";
 import figlet from 'figlet';
 import standard from 'figlet/importable-fonts/Standard.js'
-import ElectronicDetails from "./ElectronicDetails";
+
 
 function ElectronicItem({data}) {
-  const [show, setShow] = useState(false)
+  const navigate = useNavigate()
   const [asciiData, setAsciiData] = useState("")
-  
+
   useEffect(()=>{
     figlet.parseFont('Standard', standard);
     figlet.text(data.name, {
@@ -14,13 +15,11 @@ function ElectronicItem({data}) {
     }, function(err, data) {
         setAsciiData(data);
     });
-    console.log("wepa")
   }, [data.name])
 
   return (
-    <div onMouseOver={()=>{setShow(true)}} onMouseOut = {()=>{setShow(false)}} className="asci electronic-item">
+    <div className="asci electronic-item" onClick={()=>navigate('/detail')}>
       {asciiData}
-      {show && <ElectronicDetails explanation = {data.explanation}/>}
     </div>
     )
 }
