@@ -154,7 +154,7 @@ footer{
 
 /* Electronic item explanation */
 
-.item-ascii-art{
+.image-ascii-art{
   float:left;
   font-size: 2px;
   font-weight: 800;
@@ -163,7 +163,7 @@ footer{
 span{
   font-size: 1.5rem;
 }
-.item-ascii-art, span{
+.image-ascii-art, span{
   color:chartreuse;
 }
 .more-less{

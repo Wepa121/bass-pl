@@ -15,7 +15,7 @@ import { asciiMotors } from "./assets/ascii-art-motors"
 
 function AsciiImage({assetName}) {
   return (
-    <p className="asci item-ascii-art">
+    <p className="asci image-ascii-art">
       {assetName === "resistor" && asciiResistor}
       {assetName === "capacitor" && asciiCapacitor}
       {assetName === "led" && asciiDiode}
