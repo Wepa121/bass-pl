@@ -1,19 +1,8 @@
-import {useEffect, useState} from "react"
-import figlet from 'figlet';
-import standard from 'figlet/importable-fonts/Bigfig'
+import useToAscii from "templates/hooks/useToAscii";
 
 
 function NavLink({data}) {
-  const [asciiData, setAsciiData] = useState("")
-
-  useEffect(()=>{
-    figlet.parseFont('Standard', standard);
-    figlet.text(data, {
-        font: 'Standard',
-    }, function(err, data) {
-        setAsciiData(data);
-    });
-  }, [data])
+  const asciiData = useToAscii(data)
 
   return (
     <p className="link-text asci">{asciiData}</p>
