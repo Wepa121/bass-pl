@@ -1,5 +1,5 @@
 import ElectronicItem from "./ElectronicItem"
-import { arr } from "../Data/data"
+import { arr } from "data/data"
 
 function ElectronicList() {
   return (

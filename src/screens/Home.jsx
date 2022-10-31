@@ -1,5 +1,5 @@
 
-import ElectronicList from "../ElectronicList"
+import ElectronicList from "components/ElectronicList"
 
 function Home() {
 

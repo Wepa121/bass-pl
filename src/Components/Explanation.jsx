@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { arr } from "../Data/data"
+import { arr } from "data/data"
 
 function Explanation({component}) {
   const [text, setText] = useState({
