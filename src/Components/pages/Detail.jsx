@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
-import AsciiImage from "./AsciiImage"
-import Explanation from "./Explanation"
-import {arr} from "../Data/data";
+import AsciiImage from "../AsciiImage"
+import Explanation from "../Explanation"
+import {arr} from "../../Data/data";
 
 const handlePageExist = (component) =>
   arr.find(item => item.name.toLowerCase().includes(component.toLowerCase()))
