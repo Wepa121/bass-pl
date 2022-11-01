@@ -7,7 +7,7 @@ function ElectronicItem({data}) {
   const asciiData = useToAscii(data.name)
 
   return (
-    <div className="asci electronic-item" onClick={()=>navigate(`/components/${data.name.toLowerCase()}`)}>
+    <div className="asci electronic-item" onClick={() => navigate(`/components/${data.name.toLowerCase()}`)}>
       {asciiData}
     </div>
     )

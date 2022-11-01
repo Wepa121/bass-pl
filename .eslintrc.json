@@ -4,15 +4,6 @@
   },
   "extends": [
     "react-app",
-    "react-app/jest",
     "eslint:recommended"
-  ],
-  "rules":{
-    "semi":"warn",
-    "no-unused-vars": "warn",
-    "newline-before-return": "warn",
-    "quotes":["warn", "single"],
-    "indent": ["error", 2]
-  }
-
+  ]
 }
