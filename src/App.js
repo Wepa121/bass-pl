@@ -1,11 +1,11 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import Header from "templates/Header";
-import Footer from "templates/Footer";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Header from 'templates/Header';
+import Footer from 'templates/Footer';
 
-import About from "screens/About";
-import Contact from "screens/Contact";
-import Home from "screens/Home";
-import Detail from "screens/Detail";
+import About from 'screens/About';
+import Contact from 'screens/Contact';
+import Home from 'screens/Home';
+import Detail from 'screens/Detail';
 
 function App() {
   return (

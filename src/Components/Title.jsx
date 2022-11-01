@@ -1,12 +1,12 @@
-import useToAscii from "templates/hooks/useToAscii"
+import useToAscii from 'templates/hooks/useToAscii';
 
 
 function Title({data}) {
-  const asciiData = useToAscii(data)
+  const asciiData = useToAscii(data);
 
   return (
-    <div className={`title ${data !== "Electronics" && "title-content"}`}>{asciiData}</div>
-  )
+    <div className={`title ${data !== 'Electronics' && 'title-content'}`}>{asciiData}</div>
+  );
 }
 
-export default Title
+export default Title;
